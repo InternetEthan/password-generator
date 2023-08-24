@@ -54,7 +54,6 @@ if (uppercaseCheck && numberCheck && specialCheck ===true) {
   }
   return retVal;
 } else if (specialCheck === true) {
-  length = prompt("Enter a password length between 8 and 128");
       charset = "abcdefghijklmnopqrstuvwxyz#$%&'()*+,-./:;<=>?@[^_`{|}~",
       retVal = "";
   for (var i = 0, n = charset.length; i < length; ++i) {
