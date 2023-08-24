@@ -1,10 +1,14 @@
 // Assignment code here
+var uppercaseCheck
+var numberCheck
+var specialCheck
+
+function setParameters() {
+  uppercaseCheck = confirm("Select Ok to include uppercase letters in password");
+  numberCheck = confirm("Select Ok to include numbers in password");
+  specialCheck = confirm("Select Ok to include special characters in password");
+}
 function generatePassword() {
-let uppercaseCheck = confirm("Select Ok to include uppercase letters in password");
-let numberCheck = confirm("Select Ok to include numbers in password");
-let specialCheck = confirm("Select Ok to include special characters in password");
-
-
 if (uppercaseCheck && numberCheck && specialCheck ===true) {
   var length = prompt("Enter a password length between 8 and 128");
       charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789#$%&'()*+,-./:;<=>?@[^_`{|}~",
@@ -74,6 +78,7 @@ if (uppercaseCheck && numberCheck && specialCheck ===true) {
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
+var parametersBtn = document.querySelector("#parameters");
 
 // Write password to the #password input
 function writePassword() {
@@ -86,3 +91,4 @@ function writePassword() {
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
+parametersBtn.addEventListener("click", setParameters);
