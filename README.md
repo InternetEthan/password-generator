@@ -6,7 +6,7 @@ This site generates a random password for the user based on specified parameters
 
 ## Installation
 
-N/A
+Deployed Application: https://internetethan.github.io/password-generator/
 
 ## Usage
 
@@ -15,5 +15,7 @@ Click the "Select Parameters" button to set your password parameters (uppercase 
 ![webpage screenshot](./assets/page.png)
 
 ## Credits
+
 Starter Code: https://github.com/coding-boot-camp/friendly-parakeet
+
 ## License
