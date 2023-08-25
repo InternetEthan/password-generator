@@ -15,5 +15,5 @@ Click the "Select Parameters" button to set your password parameters (uppercase 
 ![webpage screenshot](./assets/page.png)
 
 ## Credits
-
+Starter Code: https://github.com/coding-boot-camp/friendly-parakeet
 ## License
